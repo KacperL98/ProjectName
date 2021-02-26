@@ -2,7 +2,7 @@
 
 ### Hello👋
 
-The First step was adding in package.js dependecies
+### The First step was adding in package.js dependecies
 
    ```
   "dependencies": {
@@ -20,7 +20,7 @@ The First step was adding in package.js dependecies
 
 also you can use the site [ReactNavigation](https://reactnavigation.org/docs/getting-started)
 
-The Next Step I created two folders(FirstScreen, SecondScreen) with files(styles.js, index.js)
+### The Next Step I created two folders(FirstScreen, SecondScreen) with files(styles.js, index.js)
 
 ### Views
 ![154969746_2728558467394851_7918887743775431023_n](https://user-images.githubusercontent.com/75754448/109322678-dd46fb00-7852-11eb-8ff6-4a2b008238b6.jpg)
