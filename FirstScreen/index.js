@@ -8,7 +8,7 @@ import {
 import styles from './styles';
 
 const FirstPage = ({navigation}) => {
-  const [userName, setUserName] = useState('');
+  const [userName, setUserName] = useState('Hello');
 
   return (
     <SafeAreaView style={{flex: 1}}>
