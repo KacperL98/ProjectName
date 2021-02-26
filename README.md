@@ -86,5 +86,5 @@ const SecondPage = ({route, navigation}) => {
 ### Gif
 
 
-https://user-images.githubusercontent.com/75754448/109329641-226f2b00-785b-11eb-8a76-741cdf8b7a8c.mp4
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/75754448/109329977-7da11d80-785b-11eb-8975-1bc9bd71d970.gif)
 
