@@ -25,7 +25,7 @@ The Next Step I created two folders(FirstScreen, SecondScreen) with files(styles
 ### Views
 ![154969746_2728558467394851_7918887743775431023_n](https://user-images.githubusercontent.com/75754448/109322678-dd46fb00-7852-11eb-8ff6-4a2b008238b6.jpg)
 
-display the entered text in the next view
+### display the entered text in the next view
 
 FirstScreen - index.js
 
@@ -52,7 +52,7 @@ SecondScreen - index.js
 
 ```
 
-clicking on the button "Przejdź dalej" will take you to the second layout
+### clicking on the button "Przejdź dalej" will take you to the second layout
 
 FirstScreen - index.js
 
