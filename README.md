@@ -18,6 +18,9 @@ The First step was adding in package.js dependecies
   },
 ```
 
+also you can use the site [ReactNavigation](https://reactnavigation.org/docs/getting-started)
 
+The Next Step I created two folders(FirstScreen, SecondScreen) with files(styles.js, index.js)
 
+clicking on the button will take you to the second layout
 
