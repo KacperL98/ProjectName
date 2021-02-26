@@ -67,7 +67,7 @@ FirstScreen - index.js
     <Text style={styles.buttonText}>Przejdź dalej</Text>
 </TouchableOpacity>
 ```
-clicking the "Wróć" button will take you to first layout
+### clicking the "Wróć" button will take you to first layout
 
 SecondScreen - index.js
 
