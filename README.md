@@ -23,7 +23,7 @@ also you can use the site [ReactNavigation](https://reactnavigation.org/docs/get
 ### The Next Step I created two folders(FirstScreen, SecondScreen) with files(styles.js, index.js)
 
 ### Views
-![154969746_2728558467394851_7918887743775431023_n](https://user-images.githubusercontent.com/75754448/109322678-dd46fb00-7852-11eb-8ff6-4a2b008238b6.jpg)
+![155129490_888248665266210_7356825393391100622_n](https://user-images.githubusercontent.com/75754448/109328944-4ed67780-785a-11eb-9cd9-3054a0fe187a.jpg)
 
 ### display the entered text in the next view
 
