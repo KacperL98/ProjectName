@@ -22,5 +22,64 @@ also you can use the site [ReactNavigation](https://reactnavigation.org/docs/get
 
 The Next Step I created two folders(FirstScreen, SecondScreen) with files(styles.js, index.js)
 
-clicking on the button will take you to the second layout
+### Views
+![154969746_2728558467394851_7918887743775431023_n](https://user-images.githubusercontent.com/75754448/109322678-dd46fb00-7852-11eb-8ff6-4a2b008238b6.jpg)
 
+display the entered text in the next view
+
+FirstScreen - index.js
+
+   ```
+       <TextInput
+          value={userName}
+          onChangeText={(username) => setUserName(username)}
+          placeholder={'Podaj dane...'}
+          style={styles.inputStyle}
+        />
+```
+
+SecondScreen - index.js
+
+   ```
+    const SecondPage = ({route, navigation}) => {
+  return (
+  [...]
+
+        <Text style={styles.textResult}>
+        Dane pobrane z pierwszego ekranu poniżej {route.params.paramKey}
+        </Text>
+      </View>
+
+```
+
+clicking on the button "Przejdź dalej" will take you to the second layout
+
+FirstScreen - index.js
+
+   ```
+ const FirstPage = ({navigation}) => {
+  [...]
+        <TouchableOpacity 
+          onPress={() =>
+            navigation.navigate('SecondPage', {
+              paramKey: userName})}
+              style={styles.button}>
+    <Text style={styles.buttonText}>Przejdź dalej</Text>
+</TouchableOpacity>
+```
+clicking the "Wróć" button will take you to first layout
+
+SecondScreen - index.js
+
+   ```
+const SecondPage = ({route, navigation}) => {
+ [...]
+      <TouchableOpacity   
+      onPress={() =>
+            navigation.navigate('FirstPage')}
+              style={styles.button}>
+    <Text style={styles.buttonText}>Wróć</Text>
+</TouchableOpacity>
+    </SafeAreaView>
+
+```
