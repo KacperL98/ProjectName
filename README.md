@@ -83,3 +83,8 @@ const SecondPage = ({route, navigation}) => {
     </SafeAreaView>
 
 ```
+### Gif
+
+
+https://user-images.githubusercontent.com/75754448/109329641-226f2b00-785b-11eb-8a76-741cdf8b7a8c.mp4
+
