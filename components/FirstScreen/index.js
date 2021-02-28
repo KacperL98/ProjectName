@@ -3,16 +3,21 @@ import {
   SafeAreaView,
   View,
   Text,
-  TextInput, TouchableOpacity
+  TextInput, KeyboardAvoidingView, ScrollView
+  
 } from 'react-native';
 import styles from './styles';
+import _StyledButton from '../StyledButton'
 
 const FirstPage = ({navigation}) => {
-  const [userName, setUserName] = useState('Hello');
+  const [userName, setUserName] = useState('');
 
   return (
-    <SafeAreaView style={{flex: 1}}>
-      <View style={styles.container}>
+    <KeyboardAvoidingView
+    style={{flex:1}}
+  >
+<SafeAreaView style={styles.container} >
+      <ScrollView >
        <View style={styles.circle}/>
        <Text style={styles.textLogo}>Logo</Text>
 
@@ -27,16 +32,16 @@ const FirstPage = ({navigation}) => {
           style={styles.inputStyle}
         />
 
-        <TouchableOpacity 
+        <_StyledButton
+          type="primary"
+          content={"Przejdź dalej"}
           onPress={() =>
             navigation.navigate('SecondPage', {
               paramKey: userName})}
-              style={styles.button}>
-    <Text style={styles.buttonText}>Przejdź dalej</Text>
-</TouchableOpacity>
-
-      </View>
-    </SafeAreaView>
+        />
+      </ScrollView>
+      </SafeAreaView>
+    </KeyboardAvoidingView>
   );
 };
 

@@ -4,51 +4,41 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
+    justifyContent: 'center',
     padding: 20,
   },
   circle: {
    width: 200,
    height: 200,
    borderRadius: 100,
+   marginLeft: 60,
    backgroundColor: 'silver',
    borderColor: 'blue'
   },
   textLogo: {
     fontWeight: 'bold',
     color: 'white',
-    position: 'absolute',
-    top: 100,
+    bottom: 120,
     fontSize: 32,
-    alignItems: 'center',
-    justifyContent: 'center',
+    marginLeft: 120,
   },
   textStyle: {
     textAlign: 'center',
     fontSize: 32,
-    marginVertical: 10,
+    marginVertical: 5,
     color: 'lightslategrey',
-    padding: 20,
+    marginBottom:30,
   },
   inputStyle: {
-    width: '80%',
+    width: 250,
     height: 44,
     padding: 10,
-    marginVertical: 10,
     backgroundColor: '#DBDBD6',
     borderRadius: 10,
     borderWidth: 1,
+    margin:15,
+    marginLeft:30,
   },
-  button: {
-    width:"100%",
-    backgroundColor: "deepskyblue",
-    padding: 20,
-    borderRadius: 10,
-    alignItems: 'center',
-    margin: 20
-},
-buttonText: {
-    color: "white"
-}
 });
 
   export default styles;

@@ -2,8 +2,8 @@ import 'react-native-gesture-handler';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import FirstPage from './FirstScreen';
-import SecondPage from './SecondScreen';
+import FirstPage from './components/FirstScreen';
+import SecondPage from './components/SecondScreen';
 
 const Stack = createStackNavigator();
 

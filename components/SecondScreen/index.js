@@ -2,8 +2,10 @@ import React from 'react';
 import {SafeAreaView, 
   View, 
   Text, 
-  TouchableOpacity} from 'react-native';
+} from 'react-native';
 import styles from './styles';
+import _StyledButton from '../StyledButton'
+import _textResult from '../TextResults';
 
 const SecondPage = ({route, navigation}) => {
   return (
@@ -11,22 +13,21 @@ const SecondPage = ({route, navigation}) => {
       <View style={styles.container}>
       <View style={styles.circle}/>
       <Text style={styles.textLogo}>Logo</Text>
-
+     
       <Text style={styles.textStyle}>
-          Aplikacja testowa
-        </Text>
-
-        <Text style={styles.textResult}>
-        Dane pobrane z pierwszego ekranu poniżej {route.params.paramKey}
-        </Text>
+          Aplikacja testowa</Text>
+        
+        <_textResult 
+        content={route.params.paramKey}
+        txtPreviousV={"Dane pobrane z pierwszego ekranu"}
+        />
       </View>
-
-      <TouchableOpacity   
-      onPress={() =>
+      <_StyledButton
+          type="secondary"
+          content={"Wróć"}
+          onPress={() =>
             navigation.navigate('FirstPage')}
-              style={styles.button}>
-    <Text style={styles.buttonText}>Wróć</Text>
-</TouchableOpacity>
+        />
     </SafeAreaView>
   );
 };
