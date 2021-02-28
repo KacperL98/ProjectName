@@ -84,6 +84,8 @@ const SecondPage = ({route, navigation}) => {
 
 ```
 
+
+
 ### Views Samsung A51 6,5"
 
 ![155471223_2946124685671252_5221397355821134753_n](https://user-images.githubusercontent.com/75754448/109414283-70e30d80-79b2-11eb-83c2-6ff38139a62d.jpg)
