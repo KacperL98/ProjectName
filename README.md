@@ -83,6 +83,18 @@ const SecondPage = ({route, navigation}) => {
     </SafeAreaView>
 
 ```
+
+
+
+### Views Samsung A51
+
+![155471223_2946124685671252_5221397355821134753_n](https://user-images.githubusercontent.com/75754448/109414283-70e30d80-79b2-11eb-83c2-6ff38139a62d.jpg)
+
+### Views Samsung A40
+
+![155434239_186254739551084_4214911581479392227_n](https://user-images.githubusercontent.com/75754448/109414459-5493a080-79b3-11eb-9603-6b2c0053b36f.jpg)
+
+
 ### Gif
 
 
