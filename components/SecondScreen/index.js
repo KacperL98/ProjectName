@@ -9,9 +9,7 @@ import _textResult from '../TextResults';
 
 const SecondPage = ({route, navigation}) => {
   return (
-    <KeyboardAvoidingView
-    style={{flex:1}}
-  >
+
     <SafeAreaView style={{flex: 1}}>
       <ScrollView>
       <View style={styles.container}>
@@ -34,7 +32,6 @@ const SecondPage = ({route, navigation}) => {
         />
         </ScrollView>
     </SafeAreaView>
-    </KeyboardAvoidingView>
   );
 };
 
