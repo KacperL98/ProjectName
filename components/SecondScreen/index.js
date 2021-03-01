@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaView, 
   View, 
-  Text, 
+  Text, KeyboardAvoidingView, ScrollView
 } from 'react-native';
 import styles from './styles';
 import _StyledButton from '../StyledButton'
@@ -9,7 +9,11 @@ import _textResult from '../TextResults';
 
 const SecondPage = ({route, navigation}) => {
   return (
+    <KeyboardAvoidingView
+    style={{flex:1}}
+  >
     <SafeAreaView style={{flex: 1}}>
+      <ScrollView>
       <View style={styles.container}>
       <View style={styles.circle}/>
       <Text style={styles.textLogo}>Logo</Text>
@@ -28,7 +32,9 @@ const SecondPage = ({route, navigation}) => {
           onPress={() =>
             navigation.navigate('FirstPage')}
         />
+        </ScrollView>
     </SafeAreaView>
+    </KeyboardAvoidingView>
   );
 };
 

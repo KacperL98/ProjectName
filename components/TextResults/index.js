@@ -8,9 +8,10 @@ const _textResult = (props) => {
     return (
       
       <View style={styles.container}>
-              <Text style={styles.textResult}>
-          {txtPreviousV} {content}
+              <Text style={styles.txtPreviousV}>
+          {txtPreviousV} 
           </Text>
+          <Text style={styles.textResult}>{content}</Text>
       </View>
     );
   };

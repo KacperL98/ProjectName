@@ -6,11 +6,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
   },
-  textResult: {
+  txtPreviousV: {
     textAlign: 'center',
     fontSize: 16,
-    padding:5,
+    marginBottom: 20,
   },
+  textResult: {
+    textAlign: 'center',
+    fontSize:28,
+    color: 'steelblue',
+  }
 });
 
 export default styles;

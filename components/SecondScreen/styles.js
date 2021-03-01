@@ -26,20 +26,8 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 32,
     color: 'lightslategrey',
-    padding: 5,
+    marginTop:40,
   },
-  button: {
-    width:300,
-    backgroundColor: "deepskyblue",
-    padding: 20,
-    borderRadius: 10,
-    alignItems: 'center',
-    marginBottom: 300,
-    marginLeft: 60,
-},
-buttonText: {
-    color: "white"
-}
 });
 
 export default styles;

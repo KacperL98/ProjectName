@@ -28,10 +28,11 @@ const styles = StyleSheet.create({
     marginVertical: 5,
     color: 'lightslategrey',
     marginBottom:30,
+    marginRight:10,
   },
   inputStyle: {
     width: 250,
-    height: 44,
+    height: 50,
     padding: 10,
     backgroundColor: '#DBDBD6',
     borderRadius: 10,
